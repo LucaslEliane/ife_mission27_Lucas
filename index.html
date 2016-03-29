@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta charset="UTF-8" />
+	<title>IFE Mission 27</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+	<div class="content">
+		<div class="center">
+		</div>
+			
+		<div class="ship ship1">
+			<div>
+				<p class="fuel"></p>
+				<p>1</p>
+			</div>
+		</div>
+		<div class="ship ship2">
+			<div>
+				<p class="fuel"></p>
+				<p>2</p>
+			</div>
+		</div>
+		<div class="ship ship3">
+			<div>
+				<p class="fuel"></p>
+				<p>3</p>
+			</div>
+		</div>
+		<div class="ship ship4">
+			<div>
+				<p class="fuel"></p>
+				<p>4</p>
+			</div>
+		</div>
+		
+		<div class="control_panel">
+			<div class="create_panel">
+				<button class="create">新的飞船起飞</button>
+				<div class="power">
+					<label>动力系统选择:<br></label>
+					<input id = "power1" type="radio" name="power" value="power_slow"></input>
+					<label for="power1">前进号(速率10deg/s,能耗5%/s)<br></label>
+					<input id = "power2" type="radio" name="power" value="power_mid"></input>
+					<label for="power2">奔腾号(速率20deg/s,能耗7%/s)<br></label>
+					<input id = "power3" type="radio" name="power" value="power_fast"></input>
+					<label for="power3">超越号(速率30deg/s,能耗9%/s)<br></label>
+				</div>
+				<div class="energy">
+					<label>能源系统选择:<br></label>
+					<input id = "energy1" type="radio" name="energy" value="energy_slow"></input>
+					<label for="energy1">劲量型(补充能源速度2%/s)<br></label>
+					<input id = "energy2" type="radio" name="energy" value="energy_mid"></input>
+					<label for="energy2">光能型(补充能源速度3%/s)<br></label>
+					<input id = "energy3" type="radio" name="energy" value="energy_fast"></input>
+					<label for="energy3">永久型(补充能源速度4%/s)<br></label>
+				</div>
+			</div>
+			<div class="control cship1">
+				<p>对1号飞船下达指令:</p>
+				<button class="fly">开始飞行</button>
+				<button class="stop">停止飞行</button>
+				<button class="destroy">销毁</button>
+				<p class="pageage_lose"></p>
+			</div>
+			<div class="control cship2">
+				<p>对2号飞船下达指令:</p>
+				<button class="fly">开始飞行</button>
+				<button class="stop">停止飞行</button>
+				<button class="destroy">销毁</button>
+				<p class="pageage_lose"></p>
+			</div>
+			<div class="control cship3">
+				<p>对3号飞船下达指令:</p>
+				<button class="fly">开始飞行</button>
+				<button class="stop">停止飞行</button>
+				<button class="destroy">销毁</button>
+				<p class="pageage_lose"></p>
+			</div>
+			<div class="control cship4">
+				<p>对4号飞船下达指令:</p>
+				<button class="fly">开始飞行</button>
+				<button class="stop">停止飞行</button>
+				<button class="destroy">销毁</button>
+				<p class="pageage_lose"></p>
+			</div>
+		</div>	
+	</div>
+ 	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

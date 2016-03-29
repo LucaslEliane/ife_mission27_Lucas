@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.content
+{
+    width: 100%;
+    min-width: 1280px;
+    height: 775px;
+
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+}
+.center
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    visibility: hidden;
+
+    width: 2px;
+    height: 2px;
+
+    background-color: red;
+}
+.ship
+{
+    position: absolute;
+    left: 50%;
+
+    visibility: hidden;
+
+    width: 2px;
+
+    transform-origin: bottom;
+
+    border-radius: 5px;
+    background-color: transparent;
+}
+.ship .fuel
+{
+    left: 2px;
+}
+.ship div
+{
+    position: relative;
+    top: 0;
+    left: -15px;
+
+    width: 60px;
+    height: 20px;
+
+    border-right: 8px solid blue;
+    border-radius: 9px;
+    background-color: #808080;
+}
+.ship p
+{
+    font-family: 微软雅黑;
+
+    position: absolute;
+    left: 50px;
+
+    color: white;
+}
+.ship1
+{
+    top: 25%;
+
+    height: 25%;
+}
+.ship2
+{
+    top: 21%;
+
+    height: 29%;
+}
+.ship3
+{
+    top: 17%;
+
+    height: 33%;
+}
+.ship4
+{
+    top: 13%;
+
+    height: 37%;
+}
+
+.control_panel
+{
+    position: relative;
+    top: 100px;
+    left: 40px;
+
+    width: 400px;
+    height: 300px;
+}
+.create_panel
+{
+    font-family: 微软雅黑;
+
+    color: white;
+}
+.create_panel div
+{
+    margin: 10px 0;
+}
+.control
+{
+    font-family: 微软雅黑;
+
+    display: none;
+
+    margin-top: 30px;
+}
+.control p
+{
+    color: white;
+}
+button
+{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.control button
+{
+    width: 100px;
+    height: 30px;
+}
