@@ -32,7 +32,7 @@ Spaceship.prototype.charge  = function() {
 	var that = this;
 	var charge;
 	this.chargeInterval = setInterval(function(){
-		if (that.fuelSurplus === 100) {
+		if (that.fuelSurplus >= 100) {
 			window.clearInterval(that.chargeInterval);
 		}
 		charge = that.fuelCharge/10;
